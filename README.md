@@ -1,17 +1,33 @@
 How to Setup
-Clone Project
+
+1)Clone Project
+
 git clone https://github.com/Cyxaruk25/Diplom.git
-Go To Project Directory
+
+2)Go To Project Directory
+
 cd inventory-management
-Create Virtual Environment
+
+3)Create Virtual Environment
+
 python3 -m venv venv
-Active Virtual Environment
+
+4)Active Virtual Environment
+
 source venv/bin/activate
-Install Requirements File
+
+5)Install Requirements File
+
 pip install -r requirements.txt
-Migrate Database
+
+6)Migrate Database
+
 python manage.py migrate
-Create Super User
+
+7)Create Super User
+
 python manage.py createsuperuser
-Run Project
+
+8)Run Project
+
 python manage.py runserver
